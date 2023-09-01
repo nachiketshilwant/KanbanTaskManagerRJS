@@ -1,0 +1,7 @@
+.taskmodel::-webkit-scrollbar {
+    display: none;
+}
+.taskmodel{
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}

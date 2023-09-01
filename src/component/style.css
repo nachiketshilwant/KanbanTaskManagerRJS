@@ -1,0 +1,7 @@
+.column::-webkit-scrollbar {
+    display: none;
+}
+.column{
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
