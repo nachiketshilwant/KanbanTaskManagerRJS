@@ -24,10 +24,10 @@ const Tskellipsis = (props) => {
         <>
             <div>
                 <p className=' cursor-pointer'
-                onClick={edtask}>Edit Board</p>
+                onClick={edtask}>Edit Task</p>
                 <p className=' cursor-pointer text-red-600'
                 onClick={dlttask}
-                >Delete Board</p>
+                >Delete Task</p>
             </div>
         </>
 

@@ -73,7 +73,7 @@ const EdtBoardModel = (props) => {
             <div
                 className='taskmodel w-[30vw] bg-slate-900 h-[60vh] p-2 rounded-xl overflow-y-auto overflow-x-hidden text-white'
             >
-                <p className=' text-2xl text-center'>Add New Board</p>
+                <p className=' text-2xl text-center'>Update Board</p>
                 <div className='flex flex-col mt-4 mx-5'>
                     <label htmlFor="tsknm">Board Name</label>
                     {nmmp.map(e => {
@@ -138,7 +138,7 @@ const EdtBoardModel = (props) => {
                         className='bg-[#735fc7] mt-3 rounded-full text-white font-bold'
                         onClick={sbmt}
                     >
-                        Create New Board
+                        Update Board
                     </button>
                 </div>
             </div>
